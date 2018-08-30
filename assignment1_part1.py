@@ -1,14 +1,10 @@
 #!/usr/bin/env python
-
 # -*- coding: utf-8 -*-
-
 """Working with classes and functions"""
 
 
 class ListDivideException(Exception):
-
     """Custom exception class"""
-
     pass
   
 
