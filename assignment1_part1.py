@@ -5,16 +5,12 @@
 """Working with classes and functions"""
 
 
-
-
-
 class ListDivideException(Exception):
 
     """Custom exception class"""
 
     pass
-
-    
+  
 
 def listDivide(numbers, divide=2):
 
@@ -23,31 +19,24 @@ def listDivide(numbers, divide=2):
     divisible by divide.
 
     
-
     Args:
 
         numbers (list): A list of numbers.
 
         divide (int):   It has a default value of 2.
-
-        
+       
 
     Return:  
 
         int: Number of elements in the numbers list, divisible by divide.
-
-        
+       
 
     Example:
-
-        
-
+       
         In [91]:listDivide([1,2,3,4,5,6])
 
         Out[91]: 3
-
-        
-
+       
         """
 
     count_div_by_divide = 0
@@ -59,7 +48,6 @@ def listDivide(numbers, divide=2):
             count_div_by_divide += 1
 
     return count_div_by_divide
-
 
 
 def testListDivide():
